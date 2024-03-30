@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Projects/Render/LearnOpenGL/simple_triangle/build",
+  "command": "C:\\Dev\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\Projects\\Render\\LearnOpenGL\\simple_triangle\\main.cpp",
+  "file": "D:/Projects/Render/LearnOpenGL/simple_triangle/main.cpp"
+},
+{
+  "directory": "D:/Projects/Render/LearnOpenGL/simple_triangle/build",
+  "command": "C:\\Dev\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\glad.c.obj -c D:\\Projects\\Render\\LearnOpenGL\\simple_triangle\\src\\glad.c",
+  "file": "D:/Projects/Render/LearnOpenGL/simple_triangle/src/glad.c"
+}
+]
