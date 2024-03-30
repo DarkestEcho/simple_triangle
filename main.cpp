@@ -110,9 +110,14 @@ int main(int, char**)
 
     float vertices[] =
     {
-        -0.5f, -0.5f, 0.0f,
-        0.5f, -0.5f, 0.0f,
-        0.0f, 0.5f, 0.0f
+        // first triangle
+        -0.9f, -0.5f, 0.0f,  // left 
+        -0.2f, -0.6f, 0.0f,  // right
+        -0.4f, 0.6f, 0.0f,  // top 
+        // second triangle
+         0.0f, -0.5f, 0.0f,  // left
+         0.9f, -0.5f, 0.0f,  // right
+         0.45f, 0.5f, 0.0f   // top 
     };
 
     unsigned int VBO, VAO;
@@ -151,7 +156,7 @@ int main(int, char**)
         // draw our first triangle
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDrawArrays(GL_TRIANGLES, 0, 6);
         // glBindVertexArray(0); // no need to unbind it every time 
 
         // check and call events and swap the buffers
